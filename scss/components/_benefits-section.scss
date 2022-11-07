@@ -18,21 +18,20 @@
 
   background-color: $memberbgc;
   border-radius: 4px;
+}
+.benefits__title {
+  margin-bottom: 10px;
+  line-height: 1.14;
+  text-align: left;
 
-  .benefits__title {
-    margin-bottom: 10px;
-    line-height: 1.14;
-    text-align: left;
+  text-transform: uppercase;
 
-    text-transform: uppercase;
+  color: $text;
+}
+.benefits__text {
+  text-align: left;
+  line-height: 1.71;
+  /* or 171% */
 
-    color: $text;
-  }
-  .benefits__text {
-    text-align: left;
-    line-height: 1.71;
-    /* or 171% */
-
-    color: $grey;
-  }
+  color: $grey;
 }
