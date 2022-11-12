@@ -29,25 +29,9 @@
 .site__nav {
   display: flex;
   align-items: center;
-  .header__menu {
-    width: 40px;
-    height: 40px;
-    border: none;
-    background-color: $white;
-
-    display: none;
-    justify-content: center;
-    align-items: center;
-    @media (max-width: 768px) {
-      display: flex;
-    }
-  }
 
   .nav__list {
-    display: none;
-    @media (min-width: 768px) {
-      display: flex;
-    }
+    display: flex;
 
     .nav__item + .nav__item {
       margin-left: 50px;
@@ -91,11 +75,8 @@
 }
 
 .contacts__header {
-  display: none;
+  display: flex;
   align-items: center;
-  @media (min-width: 768px) {
-    display: flex;
-  }
 
   .svg__mail {
     width: 16px;
